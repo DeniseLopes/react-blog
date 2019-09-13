@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 
-class App extends React.Component() {
+class App extends React.Component {
   
   constructor(props){
     super(props)
