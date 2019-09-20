@@ -13,7 +13,11 @@
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
 #nav{
     font-family: 'Montserrat', sans-serif;
-    font-size: 26px;
+    font-size: 22px;
+}
+#navbarCollapse{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
 }
 #logo{
 height: 70px;    

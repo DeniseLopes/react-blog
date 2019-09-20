@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 /*import axios from 'axios';*/
 import Nav from './components/nav';
+import Carousel from './components/carousel';
 
 class App extends React.Component {
   
@@ -18,7 +19,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <Nav />
+        <Carousel />
       </div>
+     
     );
   }
 }
