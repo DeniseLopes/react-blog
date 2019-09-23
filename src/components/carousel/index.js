@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './style.css'
 import '../../bootstrap.min.css'
 
 const Carousel = () => (
@@ -7,16 +7,16 @@ const Carousel = () => (
 <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
   <div className="carousel-inner">
 
-    <div className="carousel-item active">
-      <img src="k1.jpg" className="d-block w-100" alt="..."/>
+    <div className="carousel-item active "  height =" 400px">
+      <img src="k1.jpg" className="d-block w-100 " alt="..."/>
     </div>
 
-    <div className="carousel-item">
-      <img src="k2.jpg" className="d-block w-100" alt="..."/>
+    <div className="carousel-item ">
+      <img src="k2.jpg" className="d-block w-100 " alt="..."/>
     </div>
 
-    <div className="carousel-item">
-      <img src="k3.jpg" className="d-block w-100" alt="..."/>
+    <div className="carousel-item ">
+      <img src="k3.jpg" className="d-block w-100 " alt="..."/>
     </div>
 
   </div>

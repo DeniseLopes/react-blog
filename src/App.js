@@ -3,6 +3,7 @@ import './App.css';
 /*import axios from 'axios';*/
 import Nav from './components/nav';
 import Carousel from './components/carousel';
+import Footer from './components/footer';
 
 class App extends React.Component {
   
@@ -20,6 +21,7 @@ class App extends React.Component {
       <div className="App">
         <Nav />
         <Carousel />
+        <Footer />
       </div>
      
     );
