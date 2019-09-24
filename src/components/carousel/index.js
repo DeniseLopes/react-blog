@@ -1,22 +1,22 @@
 import React from 'react';
-import './style.css'
+
 import '../../bootstrap.min.css'
+import './style.css';
 
 const Carousel = () => (
 
 <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
   <div className="carousel-inner">
 
-    <div className="carousel-item active "  height =" 400px">
-      <img src="k1.jpg" className="d-block w-100 " alt="..."/>
+    <div className="carousel-item active "  >
+      <div id="k1" className="d-block w-100"></div>
     </div>
 
-    <div className="carousel-item ">
-      <img src="k2.jpg" className="d-block w-100 " alt="..."/>
+    <div className="carousel-item  "  >
+      <div id="k2" className="d-block w-100"></div>
     </div>
-
-    <div className="carousel-item ">
-      <img src="k3.jpg" className="d-block w-100 " alt="..."/>
+    <div className="carousel-item  "  >
+      <div id="k3" className="d-block w-100"></div>
     </div>
 
   </div>

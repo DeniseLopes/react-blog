@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './components/nav';
 import Carousel from './components/carousel';
 import Footer from './components/footer';
+import Sidebar from './components/sidebar';
 
 class App extends React.Component {
   
@@ -21,6 +22,7 @@ class App extends React.Component {
       <div className="App">
         <Nav />
         <Carousel />
+        <Sidebar />
         <Footer />
       </div>
      

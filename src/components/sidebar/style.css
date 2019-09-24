@@ -1,0 +1,22 @@
+body{
+    border: 1px solid black;
+   
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.div1{
+    display: flex;
+}
+.img1{
+    background: url('/s1.jpg') no-repeat center;
+    width: 200px;
+    height: 300px;
+    
+}
+p{
+    text-align: left;
+    margin: 50px 0 0 20px;
+}
