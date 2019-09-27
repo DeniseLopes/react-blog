@@ -5,6 +5,7 @@ import Nav from './components/nav';
 import Carousel from './components/carousel';
 import Footer from './components/footer';
 import Sidebar from './components/sidebar';
+import Video from './components/video';
 
 class App extends React.Component {
   
@@ -23,6 +24,7 @@ class App extends React.Component {
         <Nav />
         <Carousel />
         <Sidebar />
+        <Video />
         <Footer />
       </div>
      
