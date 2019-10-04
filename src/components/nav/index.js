@@ -14,7 +14,7 @@ const Nav = () => (
 
         <ul className="navbar-nav" id="nav">
             <li className="nav-item">
-                <a className="nav-link" href="/">Postagens</a>
+                <a className="nav-link" href="postagem">Postagens</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link" href="/">Galeria</a>
