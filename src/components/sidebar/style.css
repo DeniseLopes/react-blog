@@ -3,7 +3,6 @@
 }
 .div1{
     display: flex;
-    justify-content: space-between;
     background:white;
     width:600px;
 }
@@ -15,29 +14,29 @@
 }
 .img1{
     background: url('/s1.jpg') no-repeat center;
-    width: 200px;
-    height: 300px;
-    margin:0px;
+  
 }
 .img2{
     background: url('/s2.jpg') no-repeat center;
-    width: 200px;
-    height: 280px;
-    margin:0px;
+    
 }
 .img3{
     background: url('/s3.jpg') no-repeat center;
-    width: 200px;
+ 
+}  
+
+.img1, .img2, .img3{
+    width: 30vh;
     height: 300px;
-    margin:0px;
-}        
+    margin: 0px;
+}
 
 .pdiv{
     text-align: left;
     display: flex;
     justify-content: flex-end;
-    width: 200px;
+    width: 30vh;
     margin-top: 30px;
-    margin-left: 5px;
-    text-align: end;
+    margin-left: 0px;
+    text-align: left;
 }

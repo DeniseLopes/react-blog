@@ -4,7 +4,7 @@ import '../../bootstrap.min.css'
 
 const Sidebar = () => (
 
-    <div className="container">  
+    <div className="container-fluid">  
          <div className=" row side center">
             <div className="div1 col col-sm-12 col-md-4">
                 <div className="img1"></div>

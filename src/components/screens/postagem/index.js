@@ -1,8 +1,8 @@
 
 import React from 'react'
 import Nav from '../../nav'
-import ImagemP from './imagemP'
 import Footer from '../../footer'
+import Conteudo from '../../postagemConteudo/index'
 
 
 class Postagem extends React.Component{
@@ -11,9 +11,11 @@ class Postagem extends React.Component{
        return (
             <div className="Postagem">
               <Nav />
-              <ImagemP />
-              <Footer/>
+              <Conteudo />
+              <Footer />
+             
              </div>
+             
         )
     }
 }

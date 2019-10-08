@@ -6,7 +6,7 @@ import '../../bootstrap.min.css'
 
 const Video = () => (
     <div className="video">
-       <iframe title="video" width="1200" height="400" src="https://www.youtube.com/embed/TZZfuZ7SUcE"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" ></iframe>
+       <iframe title="video" width="1600" height="400" src="https://www.youtube.com/embed/TZZfuZ7SUcE"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" ></iframe>
     </div>
 );
 

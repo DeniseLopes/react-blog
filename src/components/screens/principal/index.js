@@ -6,6 +6,7 @@ import Footer from '../../footer/index.js';
 import Sidebar from '../../sidebar/index.js';
 import Video from '../../video/index.js';
 
+
 class Principal extends React.Component {
   
  /* constructor(props){
