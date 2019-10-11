@@ -4,7 +4,7 @@ import '../../bootstrap.min.css'
 
 const Footer = () => (
 
-		<div className="bottom section-padding bg-dark">
+		<div className="bottom section-padding bg-dark ">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12 text-center">

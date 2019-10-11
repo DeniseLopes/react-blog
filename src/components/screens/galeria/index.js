@@ -1,30 +1,27 @@
 import React from 'react';
-import { render } from 'react-dom';
-import Gallery from 'react-grid-gallery';
+import Nav from '../../nav/index'
+import Footer from '../../footer/index'
+import Image from '../imagem_galeria/index'
+import './style.css'
 
-const Images =
-[{
-        src: "./s3.jpg",
-        thumbnail: "./s3.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        isSelected: true,
-        caption: "After Rain (Jeshu John - designerspics.com)"
-},
-{
-        src: "/s3.jpg",
-        thumbnail: "/s3.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},
+class Galeria extends React.Component {
 
-{
-        src: "/s3.jpg",
-        thumbnail: "/s3.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-}]
 
-export default () => <Gallery images={Images}/>;
+    render() {
+        return (
+
+            <div className="Galeria">
+                <Nav />
+                <div className="row ">
+                    <div className="col-md-12 divImagem">
+                        <Image />
+                    </div>
+                </div>
+                <Footer />
+            </div>
+
+        );
+    }
+}
+
+export default Galeria;
