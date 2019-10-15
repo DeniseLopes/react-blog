@@ -1,7 +1,8 @@
 import React from 'react'
 import './style.css'
 
-const Login = () => (
+
+const LoginTela = () => (
     <div className="wrapper fadeInDown">
         <div id="formContent">
             <div className="">
@@ -20,4 +21,4 @@ const Login = () => (
 
 );
 
-export default Login;
+export default LoginTela;
