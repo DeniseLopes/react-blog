@@ -5,30 +5,38 @@
     display: flex;
     background:white;
     width:600px;
+    
 }
 
 .div2{
     display: flex;
     background:white;
-    
+    width:600px;
+   
+}
+.div3{
+    display: flex;
+    background:white;
+    width:600px;
 }
 .img1{
     background: url('/s1.jpg') no-repeat center;
-  
+    
 }
 .img2{
-    background: url('/s2.jpg') no-repeat center;
-    
+    background: url('/s10.png') no-repeat center;
+    height: 1050px;
 }
 .img3{
     background: url('/s3.jpg') no-repeat center;
- 
+    
 }  
 
 .img1, .img2, .img3{
     width: 30vh;
     height: 300px;
     margin: 0px;
+    border-radius: 30px;
 }
 
 .pdiv{

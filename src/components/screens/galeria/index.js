@@ -17,7 +17,6 @@ class Galeria extends React.Component {
                     <div className="row ">
                         <div className="col-md-12  divImagem">
                             <Images />
-
                         </div>
                     </div>
                 </div>
