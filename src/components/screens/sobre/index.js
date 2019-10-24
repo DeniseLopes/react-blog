@@ -1,13 +1,26 @@
 import React from 'react'
 import './style.css'
+import { Parallax } from 'react-parallax';
 
 const SobreTela = () => (
-    <div class="container containerSobre">
+    <div className="container prlx">
         <div className="card">
             <div className="row no-gutters">
-                <div className="col-md-4">
-                    <img src="sobre1.jpg" className="card-img" alt="..." />
-                </div>
+                <Parallax
+                    bgImage={'sobre1.jpg'}
+                    strength={400}
+                    renderLayer={percentage => (
+                        <div className="div"
+                            style={{
+                                position: 'relative',
+                                width: percentage * 500,
+                                height: percentage * 1000,
+
+                            }}
+                        />
+                    )}
+                >
+                </Parallax>
                 <div className="col-md-8">
                     <div className="card-body">
                         <p className="card-title">Sobre Kalleo</p>
