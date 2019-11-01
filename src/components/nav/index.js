@@ -23,7 +23,7 @@ const Nav = () => (
                 <a className="nav-link" href="sobre">Sobre</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/">Contato</a>
+                <a className="nav-link" href="contato">Contato</a>
             </li>
         </ul>
         <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">

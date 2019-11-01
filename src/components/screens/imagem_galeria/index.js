@@ -106,7 +106,41 @@ const Images =
         thumbnailWidth: 320,
         thumbnailHeight: 212,
 },
-
+{
+        src: "/kalleo2.jpg",
+        thumbnail: "/kalleo2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: " filmado por Romulo Magalhães"
+},
+{
+        src: "/kalleo2.jpg",
+        thumbnail: "/kalleo2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: " filmado por Romulo Magalhães"
+},
+{
+        src: "/kalleo2.jpg",
+        thumbnail: "/kalleo2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: " filmado por Romulo Magalhães"
+},
+{
+        src: "/kalleo2.jpg",
+        thumbnail: "/kalleo2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: " filmado por Romulo Magalhães"
+},
+{
+        src: "/kalleo2.jpg",
+        thumbnail: "/kalleo2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: " filmado por Romulo Magalhães"
+},
 ]
 
 

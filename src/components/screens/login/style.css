@@ -6,7 +6,7 @@ html {
   
   body {
     font-family: "Poppins", sans-serif;
-    height: 50vh;
+    height: 100vh;
   }
   
   a {
@@ -37,8 +37,9 @@ html {
     justify-content: center;
     width: 100%;
     min-height: 100%;
-    padding: 20px;
-    margin-top: 50px;
+    padding: 0px;
+    margin-top: 75px;
+    margin-bottom: 10%;
   }
   
   #formContent {

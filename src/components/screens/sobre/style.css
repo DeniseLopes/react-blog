@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+
 .react-parallax-bgimage{
 margin-top: 150px;
-height: 100vh;
+height: 100%;
 }
 
 
  .prlx{
-     height: 100%;
+     height: 1000%;
      margin-bottom: 15px;
      display: flex;
      justify-content: center;

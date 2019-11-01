@@ -15,7 +15,7 @@ class Galeria extends React.Component {
                 <Nav />
                 <div className="container">
                     <div className="row ">
-                        <div className="col-md-12  divImagem">
+                        <div className="col-md-12 col-sm col-lg col-xl divImagem">
                             <Images />
                         </div>
                     </div>

@@ -8,14 +8,13 @@ const SobreTela = () => (
             <div className="row no-gutters">
                 <Parallax
                     bgImage={'sobre1.jpg'}
-                    strength={400}
+                    strength={550}
                     renderLayer={percentage => (
                         <div className="div"
                             style={{
                                 position: 'relative',
                                 width: percentage * 500,
-                                height: percentage * 1000,
-
+                                height: percentage * 1200,
                             }}
                         />
                     )}
