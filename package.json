@@ -6,6 +6,8 @@
     "axios": "^0.19.0",
     "iframe": "^1.0.0",
     "materialize-css": "^1.0.0-rc.2",
+    "mdbootstrap": "^4.8.11",
+    "mdbreact": "^4.22.0",
     "parallax-js": "^3.1.0",
     "react": "^16.9.0",
     "react-atv-parallax": "^1.0.2",

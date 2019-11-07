@@ -3,17 +3,20 @@ import Nav from '../../nav'
 import Footer from '../../footer'
 import ContatoTela from '../contato/index'
 
-class ContatoComponent extends React.Component{
+class ContatoComponent extends React.Component {
 
-    render(){
-       return (
+    render() {
+        return (
             <div className="Contato">
-              <Nav />
-              <ContatoTela />
-              <Footer />
-             
-             </div>
-             
+                <Nav />
+
+                <ContatoTela />
+
+
+                <Footer />
+
+            </div>
+
         )
     }
 }
