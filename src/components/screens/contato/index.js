@@ -9,9 +9,9 @@ const ContatoTela = () => (
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 mx-auto text-center">
-                        <div class="section-title mb-100">
-                            <p>get in touch</p>
-                            <h4>contact me</h4>
+                        <div class="section-title mb-100 ">
+                            <p>Olá!!</p>
+                            <h4>Entre em contato com Kalléo</h4>
                         </div>
                     </div>
                 </div>
@@ -20,37 +20,37 @@ const ContatoTela = () => (
                         <form action="#" class="contact-form">
                             <div class="row">
                                 <div class="col-xl-6">
-                                    <input type="text" placeholder="name" />
+                                    <input type="text" id="env" placeholder="nome" />
                                 </div>
                                 <div class="col-xl-6">
-                                    <input type="text" placeholder="email" />
+                                    <input type="text" id="env" placeholder="email" />
                                 </div>
                                 <div class="col-xl-6">
-                                    <input type="text" placeholder="subject" />
+                                    <input type="text" id="env" placeholder="assunto" />
                                 </div>
                                 <div class="col-xl-6">
-                                    <input type="text" placeholder="telephone" />
+                                    <input type="text" id="env" placeholder="telefone" />
                                 </div>
                                 <div class="col-xl-12">
-                                    <textarea placeholder="message" cols="30" rows="10"></textarea>
-                                    <input type="submit" value="send message" />
+                                    <textarea placeholder="menssagem" cols="30" rows="10"></textarea>
+                                    <input type="submit" className="bg-warning" value= "Enviar" />
                                 </div>
                             </div>
                         </form>
                     </div>
                     <div class="col-md-4">
-                        <div class="single-contact">
-                            <i class="fa fa-map-marker"></i>
+                        <div class="single-contact ">
+                            <i class="fa fa-map-marker bg-warning"></i>
                             <h5>Address</h5>
                             <p>661 Lefferts, NY 11203, USA</p>
                         </div>
                         <div class="single-contact">
-                            <i class="fa fa-phone"></i>
+                            <i class="fa fa-phone bg-warning"></i>
                             <h5>Phone</h5>
                             <p>(+1) 517 397 7100</p>
                         </div>
                         <div class="single-contact">
-                            <i class="fa fa-envelope"></i>
+                            <i class="fa fa-envelope bg-warning"></i>
                             <h5>Email</h5>
                             <p>infor@personal.com</p>
                         </div>
