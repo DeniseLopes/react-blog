@@ -18,7 +18,10 @@ const Conteudo = () => (
                  parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet,
                   consectetur adipiscing elit. Aenean velit eros, malesuada vel semper ut,
             vulputate nec sapien. Nam eu lacus mollis, laoreet odio in, commodo magna.</p>
-        <textarea></textarea>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
         <div className="botao">
             <button type="button" class="btn btn-warning btn-lg center enviar">Enviar</button>
         </div>
