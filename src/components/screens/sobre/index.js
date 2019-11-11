@@ -3,6 +3,7 @@ import './style.css'
 import { Parallax } from 'react-parallax';
 
 const SobreTela = () => (
+    <div className="corpo">
     <div className="container prlx">
         <div className="card">
             <div className="row no-gutters">
@@ -28,7 +29,8 @@ const SobreTela = () => (
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
+    </div>
     </div>
 );
 
