@@ -6,10 +6,20 @@ import LoginComponent from './components/screens/loginComponent/index'
 import Galeria from './components/screens/galeria/index'
 import SobreComponent from './components/screens/sobreComponent/index'
 import ContatoComponent from './components/screens/contatoComponent/index'
+import axios from 'axios'
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 class App extends React.Component {
+
+  constructor(props){
+    super(props)
+
+    axios.get('/postagens')
+    this.render(resultado =>{
+      console.log(resultado)
+    })
+  }
 
   render() {
     return (
