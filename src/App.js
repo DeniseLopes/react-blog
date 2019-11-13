@@ -12,29 +12,30 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 class App extends React.Component {
 
-  constructor(props){
+  constructor(props) {
     super(props)
 
-    axios.get('/postagens')
-    this.render(resultado =>{
-      console.log(resultado)
-    })
-  }
+    axios
+    .get('/galeria')
+    .then(resultado => {
+        console.log(resultado)
+      })
+}
 
-  render() {
-    return (
-      <Router>
-        <Switch>
-          <Route path='/' exact component={Principal} />
-          <Route path='/postagem' component={Postagem} />
-          <Route path='/login' component={LoginComponent} />
-          <Route path='/galeria' component={Galeria} />
-          <Route path='/sobre' component={SobreComponent} />
-          <Route path='/contato' component={ContatoComponent} />
-        </Switch>
-      </Router>
-    );
-  }
+render() {
+  return (
+    <Router>
+      <Switch>
+        <Route path='/' exact component={Principal} />
+        <Route path='/postagem' component={Postagem} />
+        <Route path='/login' component={LoginComponent} />
+        <Route path='/galeria' component={Galeria} />
+        <Route path='/sobre' component={SobreComponent} />
+        <Route path='/contato' component={ContatoComponent} />
+      </Switch>
+    </Router>
+  );
+}
 }
 ReactDOM.render((
   <Router>
