@@ -34,7 +34,6 @@
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:3001/api",
-  
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -53,6 +52,4 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2"
   }
- 
-  
 }

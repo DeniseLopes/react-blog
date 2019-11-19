@@ -25,6 +25,9 @@ textarea{
     justify-content: center;
     align-items: center;
   }
+  .btn-send{
+    margin-top:20px;
+  }
   
   /* ------------------------------- */
   /* Cardbox Heading
