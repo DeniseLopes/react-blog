@@ -5,11 +5,11 @@ import '../../bootstrap.min.css'
 
 const Footer = () => (
 
-	<div className="bottom section-padding bg-dark">
-		<div className="container">
+	<div className="bottom  bg-dark">
+
 
 			<div className="row">
-				<div className="col-md-12 col-sm-12	col-md-12 col-lg-12	col-xl-12 text-center">
+				<div className="col-12 text-center">
 					<div className="copyright">
 						<p>© <span>2018</span> <a href="/" className="transition">D&D</a> All rights reserved.</p>
 
@@ -27,7 +27,7 @@ const Footer = () => (
 			</div>
 
 
-		</div>
+		
 	</div>
 
 
